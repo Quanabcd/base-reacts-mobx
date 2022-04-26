@@ -1,0 +1,23 @@
+@import url('config.css');
+.wrapAssets {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.wrapItemAssets {
+    background-color: var(--white-color);
+    border: 1px solid var(--gray-color1);
+    border-radius: 20px;
+}
+
+.--wrapItemAssets-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.--wrapItemAssets-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

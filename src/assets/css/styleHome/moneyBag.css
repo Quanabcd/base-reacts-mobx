@@ -1,0 +1,69 @@
+
+.money-bag {
+   width: 896px;
+   margin: auto;
+   height: 134px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding: 10px;
+   color: var(--gray-color-1);
+   background-color: var(--white-color);
+   border-radius: 16px;
+}
+
+.money-left {
+   width: 49%;
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+}
+
+.money-center {
+   width: 2%;
+   border-right: 1px dashed var(--gray-color-1);
+}
+
+.money-right {
+   width: 49%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.moneyText {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.money-bag p {
+   color: var(--gray-color-1);
+   font-size: 12px;
+}
+
+.money-bag h5 {
+   color: var(--color-text);
+   font-weight: 600;
+   font-size: 20px;
+}
+
+.money-left h4 {
+   color: var(--color-green);
+}
+
+.money-right h4 {
+   color: var(--color-yellow);
+}
+
+.money-bag h3 {
+   color: var(--color-green);
+   font-weight: 800;
+   font-size: 28px;
+}
+
+.money-bag span {
+   color: var(--gray-color-1);
+   font-weight: 800;
+   font-size: 12px;
+}  

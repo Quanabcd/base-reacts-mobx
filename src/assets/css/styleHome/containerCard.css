@@ -1,0 +1,23 @@
+.containerCard {
+   display: flex;
+   justify-content: center;
+   gap: 12px;
+   text-align: center;
+   margin-top: 16px;
+ }
+ .cardItem {
+   background-color: var(--white-color);
+   width: 170px;
+   height: 76px;
+   padding: 5px;
+   border-radius: 16px;
+ }
+ .cardItem p {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   color: var(--color-text);
+ }
+ .cardItem span {
+   color: var(--red-color-1);
+ }

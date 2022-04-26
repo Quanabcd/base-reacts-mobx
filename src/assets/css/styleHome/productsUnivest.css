@@ -1,0 +1,79 @@
+.productsUnivest{
+   width: 896px;
+   margin: auto;
+   margin-top: 24px;
+}
+.productsUnivest h2{
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   color: var(--color-text);
+   margin-top: 24px;
+   margin-bottom: 8px;
+}
+.products{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+.products-show{
+   width: 400px;
+   background-color: var(--white-color);
+   border-radius: 16px;
+   margin: auto;
+   margin-left: 10%;
+   padding: 0% 7%;
+   padding-bottom: 5%;
+}
+.products-show button{
+   width: 100%;
+   border: none;
+   outline: none;
+   background-color:var(--white-color);
+   text-align: left;
+   margin-top: 10px;
+   
+  
+}
+.products-show button img{
+   padding-right: 15px;
+  
+}
+.show-item{
+   display: flex;
+   justify-items: center;
+   gap: 17px;
+   padding:1px;
+}
+.show-icon img{
+   padding-top: 100%;
+}
+.show-text{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 14px;
+   color: var(--light-gray-color);
+}
+.show-text li{
+   font-family: 'San Francisco Display';
+   line-height: 14px;
+}
+.show-icon{
+   width: 15%;
+   position: relative;
+}
+.show-icon img{
+  width: 100%;
+  position: absolute;
+  top: -10%;
+}
+.hr{
+   margin: auto;
+   width:75%;
+   color: black;
+   margin-top: 2px;
+}

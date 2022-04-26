@@ -1,0 +1,12 @@
+diff --git a/node_modules/antd/lib/modal/Modal.d.ts b/node_modules/antd/lib/modal/Modal.d.ts
+index e116f93..9d08c66 100644
+--- a/node_modules/antd/lib/modal/Modal.d.ts
++++ b/node_modules/antd/lib/modal/Modal.d.ts
+@@ -50,6 +50,7 @@ export interface ModalProps {
+     closeIcon?: React.ReactNode;
+     modalRender?: (node: React.ReactNode) => React.ReactNode;
+     focusTriggerAfterClose?: boolean;
++    children?: React.ReactNode
+ }
+ declare type getContainerFunc = () => HTMLElement;
+ export interface ModalFuncProps {

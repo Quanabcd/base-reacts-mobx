@@ -1,0 +1,48 @@
+.title_otp {
+    font-family: var(--bs-body-font-family-SanFranciscoText-medium);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.otp_warning {
+    font-family: var(--bs-body-font-family-SanFranciscoText-Regular);
+    color: var(--color-text);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input_style {
+    width: 47px;
+    height: 47px;
+    border-radius: 5px;
+    display: inline;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.input_componet_otp {
+    text-align: center;
+    padding: 45px;
+    border-radius: 5px;
+    background: var(--white-color);
+}
+
+.group_otp{
+    margin: 50px 0;
+}
+
+.group_input {
+    margin-bottom: 20px;
+}
+
+.style_group {
+    display: inline;
+}
+
+.container_input {
+    display: inline;
+}

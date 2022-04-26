@@ -1,0 +1,6 @@
+{
+    "editor.find.autoFindInSelection": "always",
+    "eslint.validate": [
+        { "language": "typescript", "autoFix": true }
+       ]
+}
